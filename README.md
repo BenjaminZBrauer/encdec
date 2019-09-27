@@ -3,7 +3,7 @@ The python encryption/decription module "encryption" can be include into an exis
 Use the -h or --help flags for more information on command line usage.
 ### Note
 Both the encryption and XMLP modules need to be included in order to use the encryption module, though XMLP can be used on it's own.
-At it's core, encryption utilises the XMLP module. XMLP is an XML pre-processor for python. It ships with some base directives but
+At it's core, encryption.py utilises the XMLP module. XMLP is an XML pre-processor for python. It ships with some base directives but
 can be expanded upon. The goal of XMLP is to make programming easier while testing and developing the right combinations of 
 algorithms (in this case, function pipelining for encryption and decryption).
 
