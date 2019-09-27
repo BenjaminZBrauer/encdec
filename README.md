@@ -38,13 +38,12 @@ Then, in the reverse block, you'll write the counter function to A, and continue
 The original intent was to perform a sequence of permutations, and then perform the counter-functions of those permutations in reverse order.
 As the user may want to call some functions more than once, the "executionOrder" list became a core parameter for the primary ParseFile
 function. the executionOrder list is a sequence of indices corresponding to the 0-indexed order of the function in either the forward or reverse blocks.
-The parser also accepts an execution flag (either "f" "r" or "none" by default) in-case you only want to process a specific tag. 
+The parser also accepts an execution flag (either "f", "r", or "none" by default), in-case you only want to process a specific tag. 
 ### Again Note
-Anything in the generate block previously generated will be overwritten.
+Anything in the generate block previously generated will be overwritten! :-)
 
 # Adapting this project
-XMLP can be modified to perform different operations in response to custom XML tags for your python. The sky is not the limit :-)!
-
+XMLP can be modified to perform different operations in response to custom XML tags for your python. The sky is (not) the limit! :-)
 
 
 
