@@ -22,9 +22,9 @@ The XMLPreprocessor module ships with some basic functionality. specifically, th
 directives.
 
 ## A few things worth noting
-Anything included in an ignore block wont be parsed by XMLP.
-Anything included in a generate block will be overwritten!
-Any directive aside from "ingore" and "generate" will have it's content read.
+Anything included in an ignore block wont be parsed by XMLP. &nbsp;
+Anything included in a generate block will be overwritten!&nbsp;
+Any directive aside from "ignore" and "generate" will have it's content read. &nbsp;
 Standard XML syntax applies. The only difference is the prepending of a # symbol to suit python syntax.
 ### NB!!!
 The forward and reverse blocks are written in the same direction, that is to say, you write funcA,
