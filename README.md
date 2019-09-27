@@ -22,7 +22,7 @@ To develop from the command line (not advised) you'd have to first run the parse
 The functionPipeliner function is called with a list of anonymous functions, as well as
 a string to be passed from function to function. Each func follows the form of f(astring)->newstring.
 The first argument to functionPipeliner must be a list of functions.
-The XMLPreprocessor module ships with some basic functionality. specifically, the "ignore", "forward", "generate" and "reverse"
+The XMLPreprocessor module ships with some basic functionality. Specifically, the "ignore", "forward", "generate" and "reverse"
 directives.
 
 ## A few things worth noting
