@@ -1,7 +1,7 @@
 # EncDec
 The python encryption/decription module "encryption" can be include into an existing python project or you can call "EncDec.py" from the command line.
 Use the -h or --help flags for more information on command line usage.
-## Note
+### Note
 Both the encryption and XMLP modules need to be included in order to use the encryption module, though XMLP can be used on it's own.
 At it's core, encryption utilises the XMLP module. XMLP is an XML pre-processor for python. It ships with some base directives but
 can be expanded upon. The goal of XMLP is to make programming easier while testing and developing the right combinations of 
@@ -22,9 +22,9 @@ The XMLPreprocessor module ships with some basic functionality. specifically, th
 directives.
 
 ## A few things worth noting
-Anything included in an ignore block wont be parsed by XMLP. &nbsp;
-Anything included in a generate block will be overwritten!&nbsp;
-Any directive aside from "ignore" and "generate" will have it's content read. &nbsp;
+Anything included in an ignore block wont be parsed by XMLP.
+Anything included in a generate block will be overwritten!
+Any directive aside from "ignore" and "generate" will have it's content read.
 Standard XML syntax applies. The only difference is the prepending of a # symbol to suit python syntax.
 ### NB!!!
 The forward and reverse blocks are written in the same direction, that is to say, you write funcA,
